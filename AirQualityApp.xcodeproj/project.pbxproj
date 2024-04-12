@@ -7,18 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C62743C82BC38A8B00E89BB2 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62743C72BC38A8B00E89BB2 /* SearchView.swift */; };
 		C67A3BBC2A36DCEA001FE276 /* AirQualityAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A3BBB2A36DCEA001FE276 /* AirQualityAppApp.swift */; };
 		C67A3BBE2A36DCEA001FE276 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A3BBD2A36DCEA001FE276 /* ContentView.swift */; };
 		C67A3BC02A36DCEB001FE276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67A3BBF2A36DCEB001FE276 /* Assets.xcassets */; };
 		C67A3BC32A36DCEB001FE276 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67A3BC22A36DCEB001FE276 /* Preview Assets.xcassets */; };
+		C68069C22A38260D00CC483A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68069C12A38260D00CC483A /* Model.swift */; };
+		C68069C42A38277500CC483A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68069C32A38277500CC483A /* ViewModel.swift */; };
+		C68069C62A382E1100CC483A /* AirView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68069C52A382E1100CC483A /* AirView.swift */; };
+		C68069C82A38300F00CC483A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68069C72A38300F00CC483A /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C62743C72BC38A8B00E89BB2 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		C67A3BB82A36DCEA001FE276 /* AirQualityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirQualityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67A3BBB2A36DCEA001FE276 /* AirQualityAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityAppApp.swift; sourceTree = "<group>"; };
 		C67A3BBD2A36DCEA001FE276 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C67A3BBF2A36DCEB001FE276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C67A3BC22A36DCEB001FE276 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C68069C12A38260D00CC483A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C68069C32A38277500CC483A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C68069C52A382E1100CC483A /* AirView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirView.swift; sourceTree = "<group>"; };
+		C68069C72A38300F00CC483A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		C68069C92A3830D300CC483A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +62,14 @@
 		C67A3BBA2A36DCEA001FE276 /* AirQualityApp */ = {
 			isa = PBXGroup;
 			children = (
+				C68069C92A3830D300CC483A /* Info.plist */,
 				C67A3BBB2A36DCEA001FE276 /* AirQualityAppApp.swift */,
 				C67A3BBD2A36DCEA001FE276 /* ContentView.swift */,
+				C68069C32A38277500CC483A /* ViewModel.swift */,
+				C68069C52A382E1100CC483A /* AirView.swift */,
+				C62743C72BC38A8B00E89BB2 /* SearchView.swift */,
+				C68069C12A38260D00CC483A /* Model.swift */,
+				C68069C72A38300F00CC483A /* LocationManager.swift */,
 				C67A3BBF2A36DCEB001FE276 /* Assets.xcassets */,
 				C67A3BC12A36DCEB001FE276 /* Preview Content */,
 			);
@@ -137,7 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68069C22A38260D00CC483A /* Model.swift in Sources */,
 				C67A3BBE2A36DCEA001FE276 /* ContentView.swift in Sources */,
+				C68069C82A38300F00CC483A /* LocationManager.swift in Sources */,
+				C62743C82BC38A8B00E89BB2 /* SearchView.swift in Sources */,
+				C68069C62A382E1100CC483A /* AirView.swift in Sources */,
+				C68069C42A38277500CC483A /* ViewModel.swift in Sources */,
 				C67A3BBC2A36DCEA001FE276 /* AirQualityAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +292,8 @@
 				DEVELOPMENT_TEAM = NV9QQF5628;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AirQualityApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please give access to your location to show Air values";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +323,8 @@
 				DEVELOPMENT_TEAM = NV9QQF5628;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AirQualityApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please give access to your location to show Air values";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
