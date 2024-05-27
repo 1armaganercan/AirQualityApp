@@ -77,8 +77,6 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
         alertController.addAction(cancelAction)
         alertController.addAction(openAction)
 
-        // Assuming you have a view controller from which to present this alert
-        //self.present(alertController, animated: true, completion: { () -> Void in })
     }
     
  

@@ -1,24 +1,18 @@
 //
 //  ContentView.swift
-//  AirQualityApp
+//  AirDataShowApp
 //
-//  Created by Armagan Ercan on 2023-06-12.
+//  Created by Armagan Ercan on 2024-05-27.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-           NavigationView {
-               AirView()
-              
-                   
-           }
-       }
+      AirView()
+    }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+#Preview {
+    ContentView()
 }

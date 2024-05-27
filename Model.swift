@@ -49,46 +49,9 @@ struct CityCoordinates: Codable {
 }
 
 
-/*struct CoordinateData: Codable {
-    let name: String?
-    let lat: Double
-    let lon: Double
- 
-
-    var coordinates: CityCoordinates {
-        CityCoordinates(lat: lat, lon: lon)
-    }
-}
-
-struct CityCoordinates: Codable, Identifiable {
-    var id: UUID = UUID()
-    let lat: Double
-    let lon: Double
-}
 
 
 
 
-
-
-struct CoordinateResponse:Codable{
-    
-    let coordinateList:[CoordinateData]
-    
-}
-
-
-
-struct CoordinateData:Codable{
-    
-    let coordinates:CityCoordinates
-    
-}
-
-struct CityCoordinates: Codable, Identifiable {
-    var id: UUID = UUID()
-    let lat: Double
-    let lon: Double
-}*/
 
 
